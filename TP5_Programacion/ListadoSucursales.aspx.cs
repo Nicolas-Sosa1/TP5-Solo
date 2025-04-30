@@ -35,7 +35,7 @@ namespace TP5_Programacion
 
 
             SqlCommand sqlCommand = new SqlCommand(consultaSQL, connection);
-            //SqlCommand sqlCommand = new SqlCommand(consultaExtra, connection);
+            
 
             SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
 
@@ -56,7 +56,7 @@ namespace TP5_Programacion
 
 
             SqlCommand sqlCommand = new SqlCommand(consultaSQL, connection);
-            //SqlCommand sqlCommand = new SqlCommand(consultaExtra, connection);
+            
 
             SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
 
